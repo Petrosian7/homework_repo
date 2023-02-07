@@ -5,6 +5,7 @@ body {
 .nav {
     width: 960px;
     margin: 0 auto;
+    float: right;
 }
 .general {
     content: "";
@@ -33,10 +34,14 @@ ul li a{
     text-transform: uppercase;
     text-decoration: none;
     line-height: 50px;
+    font-weight: bold;
     float: right;
 }
 ul li a:hover {
     background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 40px;
+
 }
 h2 {
     color: aliceblue;
@@ -45,5 +50,7 @@ h2 {
     padding: 0 30px;
     display: block;
     line-height: 15px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
 }
 
